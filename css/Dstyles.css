@@ -8,18 +8,37 @@ h1{
 
 .jumbotron{
     margin: 2%;
-    border-radius: 15px;
+    border: none;
     box-shadow: 0 3px 5px 0px darkblue;
+    background-color: rgba(15, 111, 207, 0.4);
 }
 
 .well{
     margin: 25px;
     padding: 3%;
-    border-color: darkblue;
-    box-shadow: 0 3px 3px 3px darkblue;
+    border: none;
+    
+    background-color: rgba(13, 112, 212, 0.4);
 }
 
 .light{
-    color: lightskyblue;
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
+body, html{
+    height: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-image:linear-gradient(rgba(237, 239, 243, 0.774),rgba(234, 232, 241, 0.329)),url("../images/depression.jpg" );
+    
+}
+
+p{
+    font-size: 19px;
+}
+
+li{
+    font-size: 18px;
+}
