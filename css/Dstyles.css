@@ -1,0 +1,18 @@
+h2{
+    color: darkblue;
+}
+
+h1{
+    color: darkblue;
+}
+
+.jumbotron{
+    margin: 2%;
+    border-radius: 15px;
+}
+
+.well{
+    margin: 25px;
+    padding: 3%;
+}
+
