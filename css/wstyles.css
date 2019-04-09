@@ -1,0 +1,24 @@
+.well{
+    margin: 25px;
+    padding: 3%;
+    border-color: darkblue;
+    box-shadow: 0 3px 3px 3px darkblue;
+}
+
+.jumbotron{
+    margin: 2%;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px 0px darkblue;
+}
+
+h2{
+    color: darkblue;
+}
+
+h1{
+    color: darkblue;
+}
+
+h4{
+    color: darkblue;
+}
