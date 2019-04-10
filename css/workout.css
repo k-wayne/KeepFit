@@ -38,6 +38,8 @@ h1 {
 }
 marquee {
   color: red;
+  font-size: 25px;
+  font-weight: bolder;
 }
 img {
   float:left;
