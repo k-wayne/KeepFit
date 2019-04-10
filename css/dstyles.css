@@ -1,3 +1,24 @@
+.well{
+    margin: 25px;
+    padding: 10%;
+    border: none;
+    background-color: rgba(0, 7, 14, 0.3);
+    text-align: center;
+    
+}
+
+.jumbotron{
+    background-color: blueviolet;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
 .flip-card {
     background-color: transparent;
     width: 350px;
@@ -40,3 +61,12 @@
     transform: rotateY(180deg);
     z-index: 1;
   }
+  body, html{
+    height: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-image:linear-gradient(rgba(237, 239, 243, 0.774),rgba(234, 232, 241, 0.329)),url("../images/diet/dietplans.jpg" )
+  }
+  
+
+  
