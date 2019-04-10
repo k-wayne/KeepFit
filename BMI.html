@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="js/Bscripts.js"></script>
+    <link href="css/Bstyles.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+
+
+    <title> BMI calculator</title>
+</head>
+
+<body>
+    <div class="head">
+        <h1>BMI Calculator</h1>
+        <a href="depression.html"><strong><u>DEPRESSION</u></strong></a>
+        <a href="waist.html">Waist Circumference</a>
+    </div>
+    <div class="content">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="jumbotron">
+                <h1>Body Mass Index Calculator</h1>
+                <p>Enter your height: <input type="text" id="height" />
+                    <select type="multiple" id="heightunits">
+                        <option value="metres" selected="selected">metres</option>
+                        <option value="inches">inches</option>
+                    </select>
+                </p>
+                <p>Enter your weight: <input type="text" id="weight" />
+                    <select type="multiple" id="weightunits">
+                        <option value="kg" selected="selected">kilograms</option>
+                        <option value="lb">pounds</option>
+                    </select>
+                </p>
+                <input type="submit" value="computeBMI" onclick="computeBMI();">
+            </div>
+            <div class="jumbotron">
+                <h1>Your BMI is: <span id="output">?</span></h1>
+
+                <h1>This means you are: <span id="comment"> ?</span> </h1>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h1>BMI Reference Chart</h1>
+            <table width="80%">
+                <tr>
+                    <th>weight category</th>
+                    <th>BMI range</th>
+                </tr>
+                <tr>
+                    <td>underweight</td>
+                    <td> below 18.5</td>
+                </tr>
+                <tr>
+                    <td>Normal weight</td>
+                    <td>18.5 - 24.9</td>
+                </tr>
+                <tr>
+                    <td> Over weight</td>
+                    <td> 25.0 - 29.9</td>
+                </tr>
+                <tr>
+                    <td> Grade I obesity</td>
+                    <td> 30.0 - 34.9</td>
+                </tr>
+                <tr>
+                    <td> Grade II obesity</td>
+                    <td> 35.0 - 39.9</td>
+                </tr>
+                <tr>
+                    <td> Grade III obesity</td>
+                    <td> above 40</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+        <p>A frequently used index to assess a person's body composition (or amount of body fat) is called the body mass
+            index, or BMI. This assessment compares your body weight to your height to come up with a value that
+            indicates whether you are underweight, normal weight, overweight, or obese. Understanding your body
+            composition is valuable because a person's level of body fat is directly correlated with health outcomes.
+            Obesity-related diseases include heart disease, type 2 diabetes, hypertension, and stroke. Thus, working
+            toward weight loss if you are overweight or obese can have a profound positive effect on your health.
+
+            The table above provides established BMI norms based on various categories of health and fitness.
+
+            For most people, BMI is a quick and easy way to assess body composition, which is why it is so commonly
+            used. However, since body weight (and not percent body fat) is used in determining BMI, there may be
+            problems when using BMI to assess people who are heavily muscled (such as body builders) or who have an
+            athletic body type. Because muscle weighs more than fat, those who have well-developed muscles typically
+            appear overweight or obese according to the BMI reference chart. If you are a person with an athletic or
+            muscular build, do not use BMI as the only method to assess your body composition. An estimation of body fat
+            using the skinfold method would be a more accurate choice.</p>
+    </div>
+</div>
+</body>
+
+</html>
