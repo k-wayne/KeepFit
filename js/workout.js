@@ -1,0 +1,55 @@
+$(document).ready(function(){
+  $(".clickable").click(function(){
+    $("img").show();
+  })
+})
+$(document).ready(function(){
+  $(".clickable").click(function(){
+    $("#arms-showing").slideToggle();
+    $("#arms-hidden").slideToggle();
+  });
+});
+$(document).ready(function(){
+  $(".click").click(function(){
+    $("img").show();
+  });
+});
+$(document).ready(function(){
+  $(".click").click(function(){
+    $("#legs-showing").slideToggle();
+    $("#legs-hidden").slideToggle();
+  });
+});
+$(document).ready(function(){
+  $(".touch").click(function(){
+    $("img").show();
+  });
+});
+$(document).ready(function(){
+  $(".touch").click(function(){
+    $("#abs-showing").slideToggle();
+    $("#abs-hidden").slideToggle();
+  });
+});
+$(document).ready(function(){
+  $(".touchable").click(function(){
+    $("img").show();
+  });
+});
+$(document).ready(function(){
+  $(".touchable").click(function(){
+    $("#lo-showing").slideToggle();
+    $("#lo-hidden").slideToggle();
+  });
+});
+$(document).ready(function(){
+  $(".showable").click(function(){
+    $("img").show();
+  });
+});
+$(document).ready(function(){
+  $(".showable").click(function(){
+    $("#up-showing").slideToggle();
+    $("#up-hidden").slideToggle();
+  });
+});

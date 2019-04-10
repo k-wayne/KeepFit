@@ -1,0 +1,47 @@
+img {
+  display:none;
+}
+#arms-showing {
+  display:none;
+}
+p {
+  cursor:pointer;
+  color:black;
+}
+p:hover {
+  text-decoration:underline;
+
+}
+#legs-showing {
+  display:none;
+}
+#abs-showing {
+  display:none;
+}
+#lo-showing {
+  display:none;
+}
+#up-showing {
+  display:none;
+}
+.jumbotron {
+  opacity: inherit;
+  background-color: inherit;
+}
+body, html {
+  height: 100%;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+h1 {
+  background-color: green;
+}
+marquee {
+  color: red;
+}
+img {
+  float:left;
+}
+.well {
+  opacity: 0.75;
+}
