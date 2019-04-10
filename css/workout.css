@@ -47,3 +47,6 @@ img {
 .well {
   opacity: 0.75;
 }
+.card {
+  background-color:lightgreen;
+}
