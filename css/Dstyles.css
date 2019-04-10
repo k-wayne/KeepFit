@@ -10,7 +10,7 @@ h1{
     margin: 2%;
     border: none;
     box-shadow: 0 3px 5px 0px darkblue;
-    background-color: rgba(15, 111, 207, 0.4);
+    background-color: rgba(36, 114, 192, 0.4);
 }
 
 .well{
@@ -18,7 +18,7 @@ h1{
     padding: 3%;
     border: none;
     
-    background-color: rgba(13, 112, 212, 0.4);
+    background-color: rgba(30, 98, 167, 0.4);
 }
 
 .light{
