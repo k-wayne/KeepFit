@@ -54,6 +54,7 @@ font-style: normal;
   margin-right: 20px;
   box-align: center;
   opacity: 0.9;
+  filter: alpha(opacity=30); 
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -156,4 +157,8 @@ button:hover, a:hover {
   width: 300px;
   resize: both;
   overflow: auto;
+}
+#body-background{
+  opacity: 0.3;
+  filter: alpha(opacity=30); 
 }
