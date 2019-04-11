@@ -5,7 +5,14 @@
     background-color: rgba(38, 125, 211, 0.3);
 }
 
+.head{
+    border-bottom: 4px solid #969595;
+    padding: 1px;
+    margin:30px;
+}
+
 .jumbotron{
+    padding: 0.1%;
     margin: 2%;
     background-color: rgba(36, 113, 190, 0.4);
     box-shadow: 0 8px 16px 6px black;
