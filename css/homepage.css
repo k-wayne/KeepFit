@@ -9,14 +9,22 @@
 }
 #carouselmint{
   padding-left: 200px;
-  height: 400i;
+  height: 400px;
 }
 #myScrollspy{
 }
 
 .picsay{
-  width: 200px
+  width: 250px;
+  height:200px;
+
 }
 .col-md-3{
   text-align: justify;
+}
+.para{
+  text-align: center;
+}
+.colpara{
+  background-color: #eeee
 }
