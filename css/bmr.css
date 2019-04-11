@@ -28,8 +28,8 @@
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 0px solid #000000;
-  margin-top: 20px;
-  margin-right: 20px;
+  margin-top: 50px;
+  margin-right: 50px;
   box-align: center;
   opacity: 0.9;
 }
@@ -43,9 +43,9 @@ font-style: normal;
   color: black;
   border:0px solid black;
   padding:30px 50px;
-  -webkit-box-shadow: 2px 3px 66px 6px green;
-  -moz-box-shadow: 2px 3px 66px 6px green;
-  box-shadow: 2px 3px 66px 6px green;
+  -webkit-box-shadow: 2px 3px 66px 6px blue;
+  -moz-box-shadow: 2px 3px 66px 6px blue;
+  box-shadow: 2px 3px 66px 6px blue;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
@@ -108,6 +108,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin-right: 50px;
+  margin-top: 50px;
   text-align: center;
   font-family: arial;
 }
@@ -138,4 +139,21 @@ a {
 
 button:hover, a:hover {
   opacity: 0.7;
+}
+.feedback{
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border: 0px solid #000000;
+  margin-top: 50px;
+  margin-right: 50px;
+  padding:30px 50px;
+}
+#form-control{
+  border: 2px solid;
+  padding: 20px; 
+  width: 300px;
+  resize: both;
+  overflow: auto;
 }
