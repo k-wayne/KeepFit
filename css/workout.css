@@ -42,6 +42,9 @@ marquee {
   font-size: 25px;
   font-weight: bolder;
 }
+img {
+  float:left;
+}
 
 .card {
   background-color:grey;
