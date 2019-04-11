@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/css/homepage.css" type="text/css">
-    <link rel="stylesheet" href="/css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/homepage.css" type="text/css">
     <script src="js/homepage.js"></script>
     <script type="js/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400i|Parisienne" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 
     <title>HomePage</title>
   </head>
@@ -15,19 +18,31 @@
     <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">KeepFit</a>
+      <a id="trio" class="navbar-brand" href="homepage.html">KeepFit</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
+      <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> About Us</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
+
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-option-vertical"></span> Extras<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="https://thenx.com"><span class="deep">Thenx</span></a></li>
+          <li><a href="https://romanfitnesssytems.com"><span class="deep">RomanFitness</span></a></li>
+          <li><a href="https://www.myfitnesspal.com/food/calorie-chart-nutrition-facts"><span class="deep">FitnessPal</span></a></li>
+        </ul>
+      </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="index.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="https://google.com"><span class="glyphicon glyphicon-search"></span> Search</a></li>
     </ul>
   </div>
 </nav>
+
+ 
+</div>
 
   </body>
 </html>
