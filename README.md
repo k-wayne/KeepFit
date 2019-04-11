@@ -1,20 +1,24 @@
 # Keep Fit
 ## Table of contents
 Description
-List of contributors
+List of collaborators
 Setup Requirements
 BDD
 Known bugs
 Technologies used
 Support and contact details
 Licence
+Acknowledgments
 ## Description
 This is a simple website that allows the users to check their BMI, waist-circumference and BMR. It also has remedy diet solutions and workout modules that are relevant to users of all ages and gender. Solutions to depression are also provided.
-### List of contributers
+### List of collaborators
 Wayne Kudoi
 Joseph Muema
 Micah Mutugi
 Charles Maina
+## Setup Instructions
+Click on the link to the development branch provided on the description bar in the GitHub repository and you should be able to view this website.
+ 
 ## Known bugs
 There are no known bugs yet but if you come across any feel free to write us an email @wkudoi@gmail.com
 ## Technologies used
@@ -26,7 +30,7 @@ Incase of any questions or comments or you need more clarifications, you could c
 #### Licence
 MIT License
 
-Copyright (c) [2019] [Micah Mutugi]
+Copyright (c) [2019] [Keep Fit]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -45,3 +49,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+#### Acknowledgments
+I would like to thank @Wayne @Charles @Muema @Micah for all the work they put in to make this website what it is.
