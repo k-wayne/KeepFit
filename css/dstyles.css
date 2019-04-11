@@ -2,7 +2,7 @@
     margin: 25px;
     padding: 10%;
     border: none;
-    background-color: rgba(0, 7, 14, 0.3);
+    background-color: rgba(24, 24, 36, 0.2);
     text-align: center;
     
 }
@@ -40,7 +40,7 @@ h2{
   }
   
   .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+    transform: rotateX(-180deg);
   }
   
   .flip-card-front, .flip-card-back {
@@ -59,7 +59,7 @@ h2{
   .flip-card-back {
     background-color: whitesmoke;
     color: black;
-    transform: rotateY(180deg);
+    transform: rotateX(-180deg);
     z-index: 1;
   }
   body, html{
