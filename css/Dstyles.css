@@ -6,10 +6,26 @@ h1{
     color: darkblue;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abril Fatface', serif;
+}
+
+.main_header img{
+    width: 10%;
+    border-radius: 40%;
+    background-color: rgba(24, 24, 36, 0.2);
+  }
+  
+  .navbar{
+    opacity: 0.9;
+    margin: 2%;
+  }
+
 .jumbotron{
+    padding: 0.5%;
     margin: 2%;
     border: none;
-    box-shadow: 0 3px 5px 0px darkblue;
+    box-shadow: 0 8px 16px 6px black;
     background-color: rgba(36, 114, 192, 0.4);
 }
 

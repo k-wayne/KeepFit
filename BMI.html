@@ -10,6 +10,7 @@
     <link href="css/Bstyles.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet">
 
 
     <title> BMI calculator</title>
@@ -21,11 +22,40 @@
         <a href="depression.html"><strong><u>DEPRESSION</u></strong></a>
         <a href="waist.html">Waist Circumference</a>
     </div>
-    <div class="content">
+    <div class="container">
+            <div class="row">
+                    <div class="col-md-12">
+                      <div class="main_header">
+                        <nav class="navbar navbar-inverse">
+                          <div class="container-fluid">
+                            <div class="navbar-header">
+                              <img src="images/bg.jpeg">
+                              <a class="navbar-brand" href="#">Keep Fit</a>
+                            </div>
+                            <!--main navigation bar -->
+                            <ul class="nav navbar-nav">
+                              <li class="active"><a href="#"><i
+                                    class="fa fa-fw fa-home"></i>Home</a></li>
+                              <li><a href="#"><i class="fa fa-fw fa-newspaper"></i>News</a>
+                              </li>
+                              <li><a href="#"><i class="fa fa-fw fa-briefcase"></i>About
+                                  Us</a></li>
+                              <li><a href="contact.html"><i
+                                    class="fa fa-fw fa-address-book"></i>Contact Us</a></li>
+                            
+                                </ul>
+                            
+                          </div>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
     <div class="row">
         <div class="col-md-8">
             <div class="jumbotron">
-                <h1>Body Mass Index Calculator</h1>
+                <h2>Body Mass Index Calculator</h2>
                 <p>Enter your height: <input type="text" id="height" />
                     <select type="multiple" id="heightunits">
                         <option value="metres" selected="selected">metres</option>
@@ -41,9 +71,9 @@
                 <input type="submit" value="computeBMI" onclick="computeBMI();">
             </div>
             <div class="jumbotron">
-                <h1>Your BMI is: <span id="output">?</span></h1>
+                <h2>Your BMI is: <span id="output">?</span></h2>
 
-                <h1>This means you are: <span id="comment"> ?</span> </h1>
+                <h2>This means you are: <span id="comment"> ?</span> </h2>
             </div>
         </div>
         <div class="col-md-4">
