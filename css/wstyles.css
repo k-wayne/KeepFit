@@ -11,6 +11,12 @@
     margin:30px;
 }
 
+#trio{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+  }
+
 .jumbotron{
     padding: 0.1%;
     margin: 2%;
@@ -23,6 +29,10 @@ h2{
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Abril Fatface', serif;
+}
+
+h1{
+    text-align: center;
 }
 
 .main_header img{
