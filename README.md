@@ -16,7 +16,7 @@ Joseph Muema
 Micah Mutugi
 Charles Maina
 ## Setup Instructions
-Click on the link to the development branch provided on the description bar in the GitHub repository and you should be able to view this website.
+Click on the link to the gh-pages provided on the description bar in the GitHub repository and you should be able to view this website.
 
 ## Known bugs
 There are no known bugs yet but if you come across any feel free to write us an email @wkudoi@gmail.com
