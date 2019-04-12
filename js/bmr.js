@@ -52,7 +52,7 @@ calculate.addEventListener("click", function(){
 	if (gender==0){
 		var bmr = Math.round(bmrMen(weight,height,age));
 		var activity = Math.round(calories(bmr,activityLevel));
-		daily.textContent = "Your BMI is " + bmr + " and you must consume " + activity + " calories to maintain your current weight"
+		daily.textContent = "Your BMR is " + bmr + " and you must consume " + activity + " calories to maintain your current weight"
 
 
 	}
@@ -60,7 +60,7 @@ calculate.addEventListener("click", function(){
 	else if (gender==1){
 		var bmr = Math.round(bmrWomen(weight,height,age));
 		var activity = Math.round(calories(bmr,activityLevel));
-		daily.textContent = "Your BMI is " + bmr + " and you must consume " + activity + " calories to maintain your current weight"
+		daily.textContent = "Your BMR is " + bmr + " and you must consume " + activity + " calories to maintain your current weight"
 	}
 }
 );
@@ -74,4 +74,8 @@ reset.addEventListener("click", function(){
 	daily.textContent = "";
 
 
+});
+
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();   
 });
