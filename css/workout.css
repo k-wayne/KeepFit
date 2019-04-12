@@ -34,19 +34,18 @@ body, html {
   background-attachment: fixed;
 }
 h1 {
-  background-color: green;
+  background-color: blue;
+  color:white;
 }
 marquee {
-  color: red;
+  color: black;
   font-size: 25px;
   font-weight: bolder;
 }
 img {
   float:left;
 }
-.well {
-  opacity: 0.75;
-}
+
 .card {
-  background-color:lightgreen;
+  background-color:grey;
 }
