@@ -46,7 +46,7 @@ h4{
 
 body, html{
     height: 100%;
-    background-size: 100%;
+    background-size: 100
     background-attachment: fixed;
     background-image:linear-gradient(rgba(237, 239, 243, 0.774),rgba(234, 232, 241, 0.329)),url("../images/bgg.jpg" )
 }
