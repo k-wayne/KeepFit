@@ -1,0 +1,91 @@
+#trio{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Parisienne', cursive;
+  font-size: 50px;
+}
+.deep{
+  font-weight: bold;
+  text-align: center;
+}
+#carouselmint{
+  padding-left: 100px;
+  height: 400px;
+  padding-right: 0px;
+}
+
+.picsay{
+  width: 250px;
+  height:200px;
+  position: inherit;
+  border-radius: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+
+}
+.col-md-3{
+  text-align: justify;
+}
+.para{
+  text-align: center;
+}
+.colpara{
+  background-color: #eeeeee
+}
+.well{
+  height: : 10px;
+}
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=100);
+}
+footer{
+  background-color: #000000;
+  color: #333333;
+  padding: 22px 20px;
+  width: 100%;
+}
+#myCarousel{
+  width: auto;
+  height: 500px;
+  max-height: 700px;
+  overflow: hidden;
+}
+#myScrollspy{
+  padding-top: 18.5px;
+}
+#about{
+  font-family: 'Cute Font', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+#thinktank{
+  font-family: 'Cute Font', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+.para{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+}
+.colpara{
+  font-family: 'Philosopher', sans-serif;
+}
+.heady{
+  font-family: 'Philosopher', sans-serif;
+}
+.dep{
+  align-items: center;
+}
+footer li{
+  float: left;
+  list-style: none;
+  cursor: pointer;
+}
+address{
+  font-weight: bold;
+  color: lightblue;
+}
