@@ -2,8 +2,15 @@ h2{
     color: darkblue;
 }
 
+#trio{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+  }
+
 h1{
     color: darkblue;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
