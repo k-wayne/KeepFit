@@ -2,6 +2,7 @@
   font-family: 'Montserrat', sans-serif;
   font-family: 'Parisienne', cursive;
   font-size: 50px;
+  margin-bottom: 0px;
 }
 .deep{
   font-weight: bold;
@@ -11,6 +12,10 @@
   padding-left: 100px;
   height: 400px;
   padding-right: 0px;
+  background-color: black;
+  margin-top: 0px;
+  padding-bottom: 520px;
+
 }
 
 .picsay{
@@ -60,6 +65,7 @@ footer{
   font-family: 'Kaushan Script', cursive;
   font-weight: bold;
   text-align: center;
+  padding-top: -30px;
 }
 #thinktank{
   font-family: 'Cute Font', cursive;
@@ -88,4 +94,7 @@ footer li{
 address{
   font-weight: bold;
   color: lightblue;
+}
+.navbar{
+  margin-bottom: 0px;
 }
