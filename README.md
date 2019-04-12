@@ -24,6 +24,8 @@ There are no known bugs yet but if you come across any feel free to write us an 
 HTML
 CSS
 JAVASCRIPT
+jquery
+BOOTSTRAP
 ### Support and contact details
 Incase of any questions or comments or you need more clarifications, you could contact us by writing us an email @wkudoi@gmail.com
 #### Licence
